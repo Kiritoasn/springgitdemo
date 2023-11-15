@@ -24,6 +24,7 @@ public class MapperController {
     }
 
     public String test1(){
+        String sst =  "不想要";
         return "这是1.0";
     }
 
