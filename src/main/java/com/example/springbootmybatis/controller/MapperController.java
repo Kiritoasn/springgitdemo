@@ -18,7 +18,14 @@ public class MapperController {
     @ResponseBody
     public List<User> queryUser(){
         List<User> users = userMapper.queryUserList();
+        System.out.println("zheshi1.0");
         return users;
 //        return "heool";
     }
+
+    public String test1(){
+        return "这是1.0";
+    }
+
+
 }
