@@ -21,4 +21,8 @@ public class MapperController {
         return users;
 //        return "heool";
     }
+
+    public String test2(){
+        return "这是2.0";
+    }
 }
