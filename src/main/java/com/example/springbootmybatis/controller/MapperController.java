@@ -28,4 +28,8 @@ public class MapperController {
     }
 
 
+
+    public String test2(){
+        return "这是2.0";
+    }
 }
