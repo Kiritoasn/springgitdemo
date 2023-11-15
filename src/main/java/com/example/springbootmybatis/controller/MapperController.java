@@ -30,6 +30,7 @@ public class MapperController {
 
 
     public String test2(){
+        String t = "我想修改一下代码";
         return "这是2.0";
     }
 }
